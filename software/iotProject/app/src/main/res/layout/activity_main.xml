@@ -5,20 +5,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#008000"
+    android:background="#FFFF"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnIngresar"
-        android:layout_width="248dp"
-        android:layout_height="78dp"
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="296dp"
+        android:layout_height="172dp"
         android:onClick="logInMenu"
-        android:backgroundTint="#FFFF"
-        android:textColor="@android:color/black"
+        android:scaleType="fitCenter"
+        android:background="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="MAIN MENU" />
+        tools:srcCompat="@drawable/firebase_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
